@@ -1,4 +1,6 @@
-Eu encontrei uma solução, realizando os seguintes passos:
+## WARN WARN: In React 18, SSRProvider is not necessary and is a noop.
+
+### Solução:
 
  - Abra o arquivo node_modules/native-base/src/core/NativeBaseProvider.tsx
  - Na linha 97 altere <SSRProvider>{children}</SSRProvider> para:
