@@ -1,3 +1,4 @@
+import { ExerciseCard } from "@components/ExerciseCard";
 import { Group } from "@components/Group";
 import { HomeHeader } from "@components/HomeHeader";
 import { VStack, FlatList, HStack, Heading, Text } from "native-base";
@@ -39,7 +40,7 @@ export function Home() {
           </Text>
         </HStack>
 
-        
+        <ExerciseCard />
       </VStack>
     </VStack>
   )
